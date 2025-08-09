@@ -11,16 +11,31 @@
 <body>
 
 <!-- Hero Section -->
-<header class="hero-section text-white text-center" style="background-image: url('assets/images/hero.jpg');">
+<header class="hero-section text-white" style="background-image: url('assets/images/hero.jpg');">
     <div class="overlay"></div>
-    <div class="container">
-        <h1 class="display-4 fw-bold">Vivek Karunamoorthy</h1>
-        <p class="lead">Infra Technology Specialist | Azure, Middleware, DevOps</p>
-        <a href="assets/resume/Vivek Resume-Azure.pdf" class="btn btn-warning btn-lg mt-3" download>
-            <i class="fa fa-download"></i> Download Resume
-        </a>
+    <div class="container-fluid hero-content d-flex justify-content-between align-items-start">
+        
+        <!-- Left Side: Certifications -->
+        <div class="certifications">
+            <img src="assets/images/cert-devops.png" alt="Microsoft Certified DevOps Engineer" class="cert-img">
+            <img src="assets/images/cert-websphere.png" alt="IBM WebSphere Certified" class="cert-img mt-2">
+        </div>
+
+        <!-- Center: Name & Title -->
+        <div class="hero-text text-center flex-grow-1">
+            <h1 class="display-4 fw-bold">Vivek Karunamoorthy</h1>
+            <p class="lead">Infra Technology Specialist | Azure, Middleware, DevOps</p>
+        </div>
+
+        <!-- Right Side: Download Resume Button -->
+        <div class="resume-btn">
+            <a href="assets/resume/Vivek Resume-Azure.pdf" class="btn btn-primary btn-lg" download>
+                <i class="fa fa-download"></i> Download Resume
+            </a>
+        </div>
     </div>
 </header>
+
 
 <!-- About Section -->
 <section class="py-5 bg-light">
